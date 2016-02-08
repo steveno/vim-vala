@@ -4,19 +4,10 @@
 " 		Hans Vercammen <hveso3@gmail.com>
 " 		pancake <pancake@nopcode.org>
 " 		Sebastian Reichel <sre@ring0.de>
-" Last Change: 	2012-02-19
 " Filenames: 	*.vala *.vapi
 "
 " REFERENCES:
 " [1] http://live.gnome.org/Vala
-"
-" TODO: Possibly when reaching vala 1.0 release
-" 	- validate code attributes
-" 	- better error checking for known errors
-" 	- full support for valadoc
-"
-" 	add vala in /usr/share/vim/vim73/scripts.vim below ruby
-" 	to have shebang support
 
 if exists("b:current_syntax")
   finish
@@ -196,5 +187,3 @@ let b:current_syntax = "vala"
 
 let &cpo = s:vala_cpo_save
 unlet s:vala_cpo_save
-
-" vim: ts=8
