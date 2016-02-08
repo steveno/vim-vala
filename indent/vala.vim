@@ -30,3 +30,4 @@ let b:did_indent = 1
 setl cin
 let b:undo_indent = "setl cin<"
 
+set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
